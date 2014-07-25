@@ -161,8 +161,9 @@ body {
 .logoimg {
   float: left;
   top: 0px;
-  width: 300px;
-  height: 100%;
+/*  width: 300px;*/ 
+  width: 400px;
+/*  height: 100%;*/
 }
 .logoimg > span {
   font-size: 30px;
@@ -523,6 +524,7 @@ body {
 }
 .icon-ast {
   background-image: url(../images/phoenix/icon/icon_about.png?v=77);
+/*    where is this pic?*/
   background-repeat: no-repeat;
 }
 .about-content {
@@ -541,7 +543,7 @@ body {
 }
 .about-content .menu-nav ul li {
   width: 180px;
-  height: 41px;
+  height: 50px;
   overflow: visible;
   margin-bottom: 9px;
 }
@@ -770,6 +772,7 @@ body {
 }
 .b-login {
   width: 345px;
+  height: 300px;
   position: relative;
   margin-top: 10px;
   left: 0px;
@@ -798,7 +801,8 @@ body {
   padding: 30px 40px 10px 40px;
 }
 .b-panel {
-  min-height: 700px;
+    height: auto;
+  min-height: 300px;
   position: relative;
   margin-top: 10px;
   left: 0px;
@@ -813,8 +817,9 @@ body {
 }
 .b-panel .b-forget-con {
   margin-left: 100px;
-  padding-left: 100px;
-  background: url(/img/icon/icon_right.jpg) no-repeat left top;
+/*  padding-left: 100px;*/
+  text-align: center;
+  background: url(../img/icon/icon_right.jpg) no-repeat left top;
 }
 .b-panel .b-forget-con .title {
   font-size: 28px;
@@ -940,4 +945,12 @@ html[xmlns] .clearfix {
 }
 .blue {
   color: #428bca;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #eee;
+}
+
+.read-more {
+    margin:50px 150px 50px;
 }
