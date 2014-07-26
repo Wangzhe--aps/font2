@@ -965,3 +965,20 @@ html[xmlns] .clearfix {
 .finish {
     
 }
+
+.rise-welcome {
+    width: 900px;
+    margin: 10px 30px;
+    height: auto;
+    min-height: 300px;
+    line-height: 40px;
+}
+
+.welcome-cotain {
+    font-size: 18px;
+}
+
+.welcome-contract {
+    font-size: 14px;
+    padding-top: 30px;
+}
