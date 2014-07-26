@@ -982,3 +982,8 @@ html[xmlns] .clearfix {
     font-size: 14px;
     padding-top: 30px;
 }
+
+.error-404 {
+    font-size: 120px;
+    margin: 40px auto;
+}

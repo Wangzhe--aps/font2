@@ -11,23 +11,33 @@
     <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<!-- top-black-->
+<!--top-black-->
 <div class="topimg">
-    <div style="width:100%;min-width:1024px;">
-        <ul class="userinfo">
-            <li style="padding-right: 15px;"><a href="#" ></a></li>
-            <li id="logout" class="logout"><a href="">退出</a></li>
-        </ul>
-    </div>
+        <div class="topimgbar">
+            <span class="e-tel">联系我们：010-82418521</span>
+            <ul class="userinfo">
+                <li>您好&nbsp;</li>
+                <li> <a href="">yingheye</a></li>
+                <li id="logout" class="logout"><a href="./signin.html">退出</a></li>
+            </ul>
+        </div>
 </div>
 <!--top-nav-->
 <div class="top">
-
-    <div class="topbar1">
-        <div class="logoimg"><span><img alt="众善LOGO" src="img/allheart/logo.png"></span></div>
-        <div class="logoinfo">
-            <ul style="font-size: 15px;padding-top: 15px;font-weight: bold;" class="nav nav-pills">
-                <li><a target="_self" href="http://www.allheart.cn/">登录</a></li>
+    <div class=topbar>
+        <div class=logoimg>
+            <span><img src="./img/allheart/logo.png" alt="众善LOGO" /><img alt="" src="./img/allheart/slogan.png"></span>
+        </div>
+        <div class=logoinfo>
+            <ul class="nav nav-pills" style="font-size: 15px;padding-top: 15px;font-weight: bold;">
+                <li><a href="./donate-list.html">捐助项目</a></li>
+                <li><a href="./rise-welcome.html">发起项目</a></li>
+                <li><a href="bbs.allheart.cn">社区</a></li>
+                <li style="padding-right:10px;float:right;"><input id="goin" type="button" class="btn btn-primary" style="width: 100px;" onclick="javascrtpt:window.location.href='http://www.allheart.cn/index.php/welcome/login'" value="登录" />
+                </li>
+                <li style="padding-right:10px;float:right;">
+                <input id="goout" type="button" class="btn btn-primary" style="width: 100px;" onclick="javascrtpt:window.location.href='http://www.allheart.cn/index.php/welcome/register'" value="注册" />
+                </li>
             </ul>
         </div>
     </div>
