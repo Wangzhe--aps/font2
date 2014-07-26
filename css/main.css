@@ -714,7 +714,6 @@ body {
   vertical-align: middle;
 }
 .pub-project-box .form-group {
-  overflow: hidden;
   margin-bottom: 25px;
 }
 .pub-project-box .form-group label {
@@ -962,9 +961,6 @@ html[xmlns] .clearfix {
     padding: 25px;
 }
 
-.finish {
-    
-}
 
 .rise-welcome {
     width: 900px;
@@ -986,4 +982,8 @@ html[xmlns] .clearfix {
 .error-404 {
     font-size: 120px;
     margin: 40px auto;
+}
+
+.ck-width {
+    width: a;
 }
